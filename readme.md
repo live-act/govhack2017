@@ -1,25 +1,30 @@
 
-This is the source code for Govhack 2017, ACT participants
 
-TEAM: DIISCOVER
+# ACT Liveability Profile Index (LPI)
+## govhack2017
+###TEAM: DIISCOVER
 
-CODER: Andy Cao
+###This is the source code for Govhack 2017, ACT participants
 
-# Discover demo
 
 See a version of it live at https://live-act.shinyapps.io/
 
-You can run this demo with:
+You need the following code to run this repo  with:
 ```
 if (!require(devtools))
   install.packages("devtools")
 devtools::install_github("rstudio/leaflet")
 
+library(tidyverse)
+library(readxl)
+library(dplyr)
+library(prophet)
+library(httr)
+library(jsonlite)
+library(lubridate)
+library(purrr)
+library(stringr)
+library(rsdmx)
+library(RJSDMX)
+
 ```
-
-
-
-# govhack2017
-# govhack2017
-# govhack2017
-# govhack2017

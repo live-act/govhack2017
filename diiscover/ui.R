@@ -33,7 +33,7 @@ navbarPage("Where would you like to live in Canberra?", id="nav",
         selectInput("size", "Size", vars, selected = "adultpop"),
         conditionalPanel("input.color == 'liveable_h' || input.size == 'liveable_h'",
           # Only prompt for threshold when coloring or sizing by liveable_h
-          numericInput("threshold", "liveable_h threshold (top n %)", 5)
+          numericInput("threshold", "liveability threshold (top n %)", 5)
         ),
 
         plotOutput("histCentile", height = 200),

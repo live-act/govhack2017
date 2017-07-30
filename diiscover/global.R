@@ -2,8 +2,9 @@ library(dplyr)
 
 allzips <- read_csv(file.path(venv,"data/liveability_final.csv"))
 
+allzips$postcode <- str_replace_all(allzips$postcode,pattern = " ",replacement = '_')
 
-allzips$latitude <- jitter(allzips$latitude, amount = 0) 
+allzips$latitude <- jitter(allzips$latitude, amount = 0)
 allzips$longitude <- jitter(allzips$longitude , amount = 0)
 allzips$school <- allzips$school * 100
 allzips$postcode <- formatC(allzips$postcode, width = 5, format="d", flag="0")

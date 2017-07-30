@@ -1,0 +1,10 @@
+name: act_liveability_profile_index
+title: ACT Liveability Profile Index
+account: eccdm
+server: shinyapps.io
+appId: 200519
+bundleId: 920337
+url: https://eccdm.shinyapps.io/act_liveability_profile_index/
+when: 1501352789.39485
+asMultiple: FALSE
+asStatic: FALSE

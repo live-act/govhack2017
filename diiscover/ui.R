@@ -47,7 +47,7 @@ navbarPage("Liveability", id="nav",
     )
   ), 
   
-    tabPanel("Data explorer",
+    tabPanel("Compare each suburb - detailed",
               fluidRow(
                   column(3,
                          conditionalPanel("input.states",

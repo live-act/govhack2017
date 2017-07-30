@@ -107,7 +107,7 @@ function(input, output, session) {
         select_postcode$suburb.x, select_postcode$state.x, select_postcode$postcode
       ))), tags$br(),
       sprintf("Median household income: %s", dollar(select_postcode$income * 52)), tags$br(),
-      sprintf("Percent of adults with BA: %s%%", as.integer(select_postcode$school)), tags$br(),
+      sprintf("Percent of adults with Bachelor degree (ABS): %s%%", as.integer(select_postcode$school)), tags$br(),
       sprintf("Adult population: %s", select_postcode$adultpop)
     ))
     leafletProxy("map") %>% addPopups(lng, lat, content, layerId = postcode)

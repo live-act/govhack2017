@@ -50,7 +50,7 @@ function(input, output, session) {
 
     hist(zipsInBounds()$centile,
       breaks = centileBreaks,
-      main = "Australian Capital Territory Livability Score ",
+      main = "ACT Liveability Score ",
       xlab = "Percentile",
       xlim = range(allzips$centile),
       col = '#00FF00',
@@ -74,7 +74,7 @@ function(input, output, session) {
     if (colorBy == "liveable_h") {
       # Color and palette are treated specially in the "liveable_h" case, because
       # the values are categorical instead of continuous.
-      colorData <- ifelse(zipdata$centile >= (100 - input$threshold), "yes", "no")
+      colorData <- ifelse(zipdata$centile >= (79 - input$threshold*0.97), "High", "Moderate")
       pal <- colorFactor("viridis", colorData)
     } else {
       colorData <- zipdata[[colorBy]]

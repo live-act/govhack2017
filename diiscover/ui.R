@@ -2,15 +2,15 @@ library(leaflet)
 
 # Choices for drop-downs
 vars <- c(
-  "ACT Liveability Profile Index" = "liveable_h",
-  "Centile score" = "centile",
-  "school" = "school",
+  "ACT LPI" = "liveable_h",
+  "LPI Score - Composite" = "centile",
+  "School" = "school",
   "Median income" = "income",
   "Population" = "adultpop"
 )
 
 
-navbarPage("Liveability", id="nav",
+navbarPage("Where would you like to live in Canberra?", id="nav",
 
   tabPanel("Explore Canberra's Liveability interactively",
     div(class="outer",
@@ -42,12 +42,12 @@ navbarPage("Liveability", id="nav",
       ),
 
       tags$div(id="cite",
-        'Data compiled for ', tags$em('ACT region Australia'), ' need to populate'
+        'Data compiled for ', tags$em('ACT region, Australia'), 'DIISCOVER'
       )
     )
   ), 
   
-    tabPanel("Compare each suburb - detailed",
+    tabPanel("Search by Suburb - Detailed Info",
               fluidRow(
                   column(3,
                          conditionalPanel("input.states",

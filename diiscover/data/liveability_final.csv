@@ -1,32 +1,137 @@
-postcode,centile,liveable_h,rank,city.x,state.x,adultpop,households,school,income,latitude,longitude,city.y,state.y
-2617,78,1,1,City,ACT,2728,1233,0.75,88,-35.277923,149.134538,City,ACT
-2600,80,0,2,City,ACT,215,83,0.83,91,-35.277923,149.134538,City,ACT
-2609,72,0,3,City,ACT,1865,773,0.96,87,-35.277923,149.134538,City,ACT
-2905,71,0,4,O'connor,ACT,10435,4721,0.72,93,-35.264871,149.113599,O'connor,ACT
-2612,96,0,5,Kingston,ACT,2129,901,0.81,89.7,-35.31666,149.152879,Kingston,ACT
-2603,94,0,6,Macarthur,ACT,12802,5234,0.79,86.4,-35.408123,149.129002,Macarthur,ACT
-2601,91,0,7,Gungahlin,ACT,4972,2103,0.81,83.1,-35.179882,149.129916,Gungahlin,ACT
-2606,90,0,8,Kambah,ACT,3980,1677,0.79,81.45,-35.392427,149.062302,Kambah,ACT
-2540,87,0,9,Bonython,ACT,46,19,0.85,79.8,-35.426712,149.07164,Bonython,ACT
-2620,85,1,10,Gordon,ACT,25142,10177,0.78,78.15,-35.456377,149.084235,Gordon,ACT
-2602,81,0,11,Kambah,ACT,7373,3035,0.81,76.5,-35.383505,149.052571,Kambah,ACT
-2605,81,0,12,Waramanga,ACT,1415,480,0.76,74.85,-35.350207,149.061227,Waramanga,ACT
-2902,80,1,13,Kambah,ACT,825,349,0.73,73.2,-35.372251,149.062246,Kambah,ACT
-2615,99,1,14,Weston,ACT,17804,4295,1,71.55,-35.337649,149.053683,Weston,ACT
-2914,100,0,15,Chifley,ACT,4507,2179,0.58,69.9,-35.352159,149.077012,Chifley,ACT
-2912,78,1,16,Monash,ACT,11312,4488,0.7,68.25,-35.418688,149.083038,Monash,ACT
-200,76,1,17,Ainslie,ACT,17,5,1,66.93,-35.268338,149.141855,Ainslie,ACT
-2616,76,0,18,Chifley,ACT,10035,4350,0.64,65.61,-35.352159,149.077012,Chifley,ACT
-2607,74,0,19,Paddys River (Rural Dist.),ACT,3659,1579,0.71,64.29,-35.323883,148.941168,Paddys River (Rural Dist.),ACT
-221,73,0,20,Belconnen,ACT,1581,732,0.89,62.97,-35.237826,149.074645,Belconnen,ACT
-2906,98,0,21,Kambah,ACT,5044,2087,0.72,61.65,-35.392427,149.062302,Kambah,ACT
-2911,72,0,22,Charnwood,ACT,703,119,0.7,60.33,-35.201965,149.038737,Charnwood,ACT
-2604,72,1,23,Oaks Estate,ACT,1432,605,0.78,59.01,-35.341884,149.227383,Oaks Estate,ACT
-2903,97,0,24,Kambah,ACT,1020,221,0.73,57.69,-35.389103,149.051935,Kambah,ACT
-2900,70,0,25,Kambah,ACT,20475,4020,0.77,56.37,-35.383505,149.052571,Kambah,ACT
-2608,66,1,26,Chifley,ACT,16633,6453,0.68,55.05,-35.352159,149.077012,Chifley,ACT
-2618,59,0,27,Forde,ACT,9745,4033,0.7,53.73,-35.157396,149.150881,Forde,ACT
-2614,58,1,28,Macgregor,ACT,189,86,0.65,52.41,-35.20853,149.001871,Macgregor,ACT
-2611,54,0,29,Evatt,ACT,15746,5882,0.67,51.09,-35.209532,149.077357,Evatt,ACT
-2904,50,1,30,Lyons,ACT,12735,5188,0.65,49.77,-35.336639,149.073916,Lyons,ACT
-2913,50,0,31,Paddys River (Rural Dist.),ACT,10824,4836,0.69,48.45,-35.323883,148.941168,Paddys River (Rural Dist.),ACT
+postcode,suburb,centile,liveable_h,rank,state,school,type,latitude,longitude,households,income,suburb.y,suburb.x,state.x,state.y,adultpop
+200-Australian National University,Australian National University,67,1,2,ACT,0.8,Post Office Boxes,-35.277272,149.117136,0,0,australian national university,australian national university,ACT,ACT,0
+221-Barton,Barton,89,1,5,ACT,0.89,LVR,-35.201372,149.095065,188,2743.51,barton,barton,ACT,ACT,2023.032841
+2540-Hmas Creswell,Hmas Creswell,73,0,101,ACT,0.66,Delivery Area,-35.129878,150.707521,0,0,hmas creswell,hmas creswell,ACT,ACT,0
+2540-Jervis Bay,Jervis Bay,75,0,94,ACT,0.69,Delivery Area,-35.127437,150.707149,0,0,jervis bay,jervis bay,ACT,ACT,0
+2600-Barton,Barton,81,1,48,ACT,0.75,Delivery Area,-35.314348,149.137033,188,2743.51,barton,barton,ACT,ACT,2023.032841
+2600-Canberra,Canberra,85,1,23,ACT,0.77,Delivery Area,-35.306768,149.126355,0,0,canberra,canberra,ACT,ACT,0
+2600-Deakin,Deakin,80,1,58,ACT,0.81,Delivery Area,-35.315246,149.108714,303,3020.7,deakin,deakin,ACT,ACT,2966.523303
+2600-Deakin West,Deakin West,80,1,59,ACT,0.78,Delivery Area,-35.326172,149.09186,0,0,deakin west,deakin west,ACT,ACT,0
+2600-Duntroon,Duntroon,81,1,49,ACT,0.78,Delivery Area,-35.303194,149.161688,30,2829.69,duntroon,duntroon,ACT,ACT,313.5109373
+2600-Harman,Harman,80,1,60,ACT,0.8,Delivery Area,-35.344592,149.200009,0,0,harman,harman,ACT,ACT,0
+2600-Hmas Harman,Hmas Harman,77,0,84,ACT,0.65,Delivery Area,-35.347094,149.1994,0,0,hmas harman,hmas harman,ACT,ACT,0
+2600-Parkes,Parkes,74,0,97,ACT,0.7,Delivery Area,-35.300114,149.132726,0,0,parkes,parkes,ACT,ACT,0
+2600-Parliament House,Parliament House,92,1,1,ACT,0.87,Delivery Area,-35.308181,149.124434,0,0,parliament house,parliament house,ACT,ACT,0
+2600-Russell,Russell,84,1,31,ACT,0.8,Delivery Area,-35.299321,149.151238,0,0,russell,russell,ACT,ACT,0
+2600-Yarralumla,Yarralumla,86,1,18,ACT,0.72,Delivery Area,-35.30748,149.098252,305,3038.53,yarralumla,yarralumla,ACT,ACT,2963.565653
+2601-Acton,Acton,78,0,79,ACT,0.75,Delivery Area,-35.282087,149.108716,0,0,acton,acton,ACT,ACT,0
+2601-Black Mountain,Black Mountain,88,1,9,ACT,0.81,Delivery Area,-35.274967,149.097654,0,0,black mountain,black mountain,ACT,ACT,0
+2601-Canberra,Canberra,86,1,19,ACT,0.84,Delivery Area,-35.302425,149.114587,0,0,canberra,canberra,ACT,ACT,0
+2602-Ainslie,Ainslie,85,1,24,ACT,0.79,Delivery Area,-35.262153,149.145893,434,2434.13,ainslie,ainslie,ACT,ACT,5267.575277
+2602-Dickson,Dickson,73,0,102,ACT,0.71,Delivery Area,-35.25113,149.140293,165,2026.01,dickson,dickson,ACT,ACT,2407.527387
+2602-Downer,Downer,71,0,112,ACT,0.71,Delivery Area,-35.243223,149.14309,273,2178.34,downer,downer,ACT,ACT,3700.020591
+2602-Hackett,Hackett,69,0,121,ACT,0.61,Delivery Area,-35.251175,149.163647,256,2437.54,hackett,hackett,ACT,ACT,3108.49052
+2602-Lyneham,Lyneham,79,0,69,ACT,0.71,Delivery Area,-35.251866,149.123906,416,2029.19,lyneham,lyneham,ACT,ACT,6057.267921
+2602-O'Connor,O'Connor,79,0,70,ACT,0.78,Delivery Area,-35.264415,149.121991,0,0,o'connor,o'connor,ACT,ACT,0
+2602-Watson,Watson,77,0,85,ACT,0.67,Delivery Area,-35.238624,149.154379,476,2230.07,watson,watson,ACT,ACT,6317.541152
+2603-Forrest,Forrest,79,0,71,ACT,0.68,Delivery Area,-35.31848,149.124096,185,3294.33,forrest,forrest,ACT,ACT,1656.284197
+2603-Griffith,Griffith,79,0,72,ACT,0.82,Delivery Area,-35.328248,149.141658,0,0,griffith,griffith,ACT,ACT,0
+2603-Manuka,Manuka,86,1,20,ACT,0.89,Delivery Area,-35.320203,149.133731,0,0,manuka,manuka,ACT,ACT,0
+2603-Red Hill,Red Hill,87,1,13,ACT,0.82,Delivery Area,-35.340723,149.131106,0,0,red hill,red hill,ACT,ACT,0
+2604-Causeway,Causeway,69,0,122,ACT,0.89,Delivery Area,-35.317703,149.150133,0,0,causeway,causeway,ACT,ACT,0
+2604-Kingston,Kingston,79,0,73,ACT,0.86,Delivery Area,-35.314775,149.141537,0,0,kingston,kingston,ACT,ACT,0
+2604-Narrabundah,Narrabundah,84,1,32,ACT,0.86,Delivery Area,-35.333135,149.153732,489,2413.12,narrabundah,narrabundah,ACT,ACT,5992.199613
+2605-Curtin,Curtin,80,1,61,ACT,0.73,Delivery Area,-35.32454,149.075667,461,2651.19,curtin,curtin,ACT,ACT,5137.438662
+2605-Garran,Garran,84,1,33,ACT,0.79,Delivery Area,-35.345268,149.103604,294,2769.28,garran,garran,ACT,ACT,3138.067024
+2605-Hughes,Hughes,81,1,50,ACT,0.85,Delivery Area,-35.333573,149.094259,258,2710.4,hughes,hughes,ACT,ACT,2809.767835
+2606-Chifley,Chifley,78,0,80,ACT,0.81,Delivery Area,-35.353521,149.079546,199,2184.85,chifley,chifley,ACT,ACT,2688.50417
+2606-Lyons,Lyons,81,1,51,ACT,0.79,Delivery Area,-35.339514,149.076118,0,0,lyons,lyons,ACT,ACT,0
+2606-O'Malley,O'Malley,80,1,62,ACT,0.73,Delivery Area,-35.354341,149.106771,98,3545.44,o'malley,o'malley,ACT,ACT,813.3538468
+2606-Phillip,Phillip,70,0,118,ACT,0.71,Delivery Area,-35.351856,149.091212,261,1939,phillip,phillip,ACT,ACT,3986.912675
+2606-Swinger Hill,Swinger Hill,71,0,113,ACT,0.72,Delivery Area,-35.353555,149.097227,0,0,swinger hill,swinger hill,ACT,ACT,0
+2606-Woden,Woden,72,0,106,ACT,0.62,Delivery Area,-35.344534,149.086391,0,0,woden,woden,ACT,ACT,0
+2607-Farrer,Farrer,83,1,38,ACT,0.7,Delivery Area,-35.375443,149.10095,280,2641.45,farrer,farrer,ACT,ACT,3129.194073
+2607-Isaacs,Isaacs,64,0,133,ACT,0.69,Delivery Area,-35.366298,149.112868,213,2635.97,isaacs,isaacs,ACT,ACT,2392.739135
+2607-Mawson,Mawson,82,1,43,ACT,0.77,Delivery Area,-35.36417,149.094507,267,2196.44,mawson,mawson,ACT,ACT,3593.545178
+2607-Pearce,Pearce,80,1,63,ACT,0.75,Delivery Area,-35.365002,149.081687,218,2381.16,pearce,pearce,ACT,ACT,2712.165373
+2607-Torrens,Torrens,78,0,81,ACT,0.71,Delivery Area,-35.372097,149.085985,176,2499.79,torrens,torrens,ACT,ACT,2076.270547
+2608-Civic Square,Civic Square,75,0,95,ACT,0.75,Post Office Boxes,-35.282868,149.129372,0,0,civic square,civic square,ACT,ACT,0
+2609-Canberra International Airport,Canberra International Airport,84,1,34,ACT,0.76,Delivery Area,-35.303411,149.194007,0,0,canberra international airport,canberra international airport,ACT,ACT,0
+2609-Fyshwick,Fyshwick,62,0,135,ACT,0.72,Delivery Area,-35.328937,149.176391,0,0,fyshwick,fyshwick,ACT,ACT,0
+2609-Majura,Majura,81,1,52,ACT,0.75,Delivery Area,-35.291673,149.190655,15,3448.94,majura,majura,ACT,ACT,124.2213148
+2609-Pialligo,Pialligo,83,1,39,ACT,0.82,Delivery Area,-35.304257,149.179244,0,0,pialligo,pialligo,ACT,ACT,0
+2609-Symonston,Symonston,73,0,103,ACT,0.68,Delivery Area,-35.347404,149.158785,0,0,symonston,symonston,ACT,ACT,0
+2611-Chapman,Chapman,87,1,14,ACT,0.8,Delivery Area,-35.356503,149.042021,250,3052.69,chapman,chapman,ACT,ACT,2419.357988
+2611-Duffy,Duffy,89,1,6,ACT,0.89,Delivery Area,-35.337331,149.031759,240,2370.64,duffy,duffy,ACT,ACT,2996.099807
+2611-Fisher,Fisher,65,0,131,ACT,0.8,Delivery Area,-35.361906,149.056369,233,2231.84,fisher,fisher,ACT,ACT,3084.829317
+2611-Holder,Holder,76,0,89,ACT,0.66,Delivery Area,-35.336947,149.044141,212,2300.89,holder,holder,ACT,ACT,2726.953625
+2611-Mount Stromlo,Mount Stromlo,83,1,40,ACT,0.81,Delivery Area,-35.322524,149.006418,0,0,mount stromlo,mount stromlo,ACT,ACT,0
+2611-Pierces Creek,Pierces Creek,71,0,114,ACT,0.87,Delivery Area,-35.335104,148.920364,0,0,pierces creek,pierces creek,ACT,ACT,0
+2611-Rivett,Rivett,88,1,10,ACT,0.89,Delivery Area,-35.347161,149.03589,233,2045.61,rivett,rivett,ACT,ACT,3371.721401
+2611-Stirling,Stirling,85,1,25,ACT,0.76,Delivery Area,-35.3486,149.049348,156,2302.43,stirling,stirling,ACT,ACT,1999.371638
+2611-Uriarra,Uriarra,80,1,64,ACT,0.67,Delivery Area,-35.244478,148.950667,0,0,uriarra,uriarra,ACT,ACT,0
+2611-Uriarra Forest,Uriarra Forest,80,1,65,ACT,0.74,Delivery Area,-35.289483,148.913247,0,0,uriarra forest,uriarra forest,ACT,ACT,0
+2611-Waramanga,Waramanga,83,1,41,ACT,0.69,Delivery Area,-35.352761,149.060415,207,2211.86,waramanga,waramanga,ACT,ACT,2765.403079
+2611-Weston,Weston,78,0,82,ACT,0.77,Delivery Area,-35.341365,149.052288,280,2371.56,weston,weston,ACT,ACT,3492.985066
+2611-Weston Creek,Weston Creek,70,0,119,ACT,0.58,Delivery Area,-35.297434,149.033649,0,0,weston creek,weston creek,ACT,ACT,0
+2612-Braddon,Braddon,74,0,98,ACT,0.65,Delivery Area,-35.270615,149.133208,491,2152.52,braddon,braddon,ACT,ACT,6740.485153
+2612-Campbell,Campbell,81,1,53,ACT,0.75,Delivery Area,-35.290006,149.153091,304,2794.11,campbell,campbell,ACT,ACT,3214.965933
+2612-Reid,Reid,84,1,35,ACT,0.76,Delivery Area,-35.282992,149.141637,137,1976.84,reid,reid,ACT,ACT,2043.736393
+2612-Turner,Turner,82,1,44,ACT,0.72,Delivery Area,-35.271229,149.118368,372,2183.75,turner,turner,ACT,ACT,5030.963249
+2614-Aranda,Aranda,86,1,21,ACT,0.84,Delivery Area,-35.257964,149.075648,209,2722.72,aranda,aranda,ACT,ACT,2271.47547
+2614-Cook,Cook,85,1,26,ACT,0.84,Delivery Area,-35.260549,149.064613,241,2210.27,cook,cook,ACT,ACT,3223.838884
+2614-Hawker,Hawker,86,1,22,ACT,0.77,Delivery Area,-35.247384,149.034535,257,2442.3,hawker,hawker,ACT,ACT,3117.363471
+2614-Jamison Centre,Jamison Centre,89,1,7,ACT,0.75,Delivery Area,-35.253292,149.071291,0,0,jamison centre,jamison centre,ACT,ACT,0
+2614-Macquarie,Macquarie,85,1,27,ACT,0.72,Delivery Area,-35.251259,149.063625,199,2001.02,macquarie,macquarie,ACT,ACT,2945.819751
+2614-Page,Page,84,1,36,ACT,0.73,Delivery Area,-35.239696,149.049056,192,1783.9,page,page,ACT,ACT,3188.34708
+2614-Scullin,Scullin,87,1,15,ACT,0.81,Delivery Area,-35.233152,149.040779,189,1868.72,scullin,scullin,ACT,ACT,2990.184506
+2614-Weetangera,Weetangera,73,0,104,ACT,0.66,Delivery Area,-35.246194,149.050592,234,2997.74,weetangera,weetangera,ACT,ACT,2309.924925
+2615-Charnwood,Charnwood,75,0,96,ACT,0.66,Delivery Area,-35.199345,149.030062,174,1693.9,charnwood,charnwood,ACT,ACT,3031.591611
+2615-Dunlop,Dunlop,78,0,83,ACT,0.73,Delivery Area,-35.198771,149.017199,510,2387.42,dunlop,dunlop,ACT,ACT,6320.498803
+2615-Florey,Florey,72,0,107,ACT,0.81,Delivery Area,-35.226376,149.051672,331,2035.2,florey,florey,ACT,ACT,4812.097123
+2615-Flynn,Flynn,71,0,115,ACT,0.74,Delivery Area,-35.200937,149.049519,0,0,flynn,flynn,ACT,ACT,0
+2615-Fraser,Fraser,71,0,116,ACT,0.72,Delivery Area,-35.192811,149.042736,160,2489.89,fraser,fraser,ACT,ACT,1898.811526
+2615-Higgins,Higgins,72,0,108,ACT,0.71,Delivery Area,-35.231052,149.027686,202,1966.27,higgins,higgins,ACT,ACT,3031.591611
+2615-Holt,Holt,72,0,109,ACT,0.73,Delivery Area,-35.225448,149.016787,309,1716.27,holt,holt,ACT,ACT,5332.643585
+2615-Kippax,Kippax,69,0,123,ACT,0.69,Delivery Area,-35.221958,149.020133,0,0,kippax,kippax,ACT,ACT,0
+2615-Latham,Latham,72,0,110,ACT,0.76,Delivery Area,-35.219561,149.032478,242,2041.66,latham,latham,ACT,ACT,3507.773318
+2615-Macgregor,Macgregor,65,0,132,ACT,0.75,Delivery Area,-35.215852,149.014395,0,0,macgregor,macgregor,ACT,ACT,0
+2615-Melba,Melba,67,0,128,ACT,0.64,Delivery Area,-35.211034,149.049966,232,2225.8,melba,melba,ACT,ACT,3081.871667
+2615-Spence,Spence,80,1,66,ACT,0.71,Delivery Area,-35.199588,149.062181,181,2213.42,spence,spence,ACT,ACT,2419.357988
+2616-Belconnen,Belconnen,79,0,74,ACT,0.74,Post Office Boxes,-35.248442,149.070336,462,1777.3,belconnen,belconnen,ACT,ACT,7689.890916
+2617-Belconnen,Belconnen,85,1,28,ACT,0.81,Delivery Area,-35.236234,149.067347,462,1777.3,belconnen,belconnen,ACT,ACT,7689.890916
+2617-Bruce,Bruce,77,0,86,ACT,0.65,Delivery Area,-35.242534,149.077275,500,2251.22,bruce,bruce,ACT,ACT,6571.899082
+2617-Evatt,Evatt,73,0,105,ACT,0.7,Delivery Area,-35.214897,149.065527,386,2268.36,evatt,evatt,ACT,ACT,5030.963249
+2617-Giralang,Giralang,82,1,45,ACT,0.81,Delivery Area,-35.209934,149.098783,242,2287.11,giralang,giralang,ACT,ACT,3126.236422
+2617-Kaleen,Kaleen,81,1,54,ACT,0.83,Delivery Area,-35.219211,149.103465,518,2288.19,kaleen,kaleen,ACT,ACT,6699.078048
+2617-Lawson,Lawson,84,1,37,ACT,0.73,Delivery Area,-35.225439,149.100291,10,3003.33,lawson,lawson,ACT,ACT,97.60246162
+2617-Mckellar,Mckellar,79,0,75,ACT,0.74,Delivery Area,-35.219085,149.072475,205,2477.08,mckellar,mckellar,ACT,ACT,2451.892142
+2617-University Of Canberra,University Of Canberra,80,1,67,ACT,0.84,Delivery Area,-35.239771,149.085896,0,0,university of canberra,university of canberra,ACT,ACT,0
+2618-Hall,Hall,81,1,55,ACT,0.83,Delivery Area,-35.522639,149.08098,20,2416.76,hall,hall,ACT,ACT,248.4426296
+2620-Hume,Hume,85,1,29,ACT,0.87,Delivery Area,-35.381752,149.176445,0,0,hume,hume,ACT,ACT,0
+2620-Kowen Forest,Kowen Forest,85,1,30,ACT,0.9,Delivery Area,-35.319673,149.248421,0,0,kowen forest,kowen forest,ACT,ACT,0
+2620-Oaks Estate,Oaks Estate,87,1,16,ACT,0.76,Delivery Area,-35.341151,149.221576,0,0,oaks estate,oaks estate,ACT,ACT,0
+2620-Tharwa,Tharwa,90,1,3,ACT,0.78,Delivery Area,-35.434676,149.125536,0,0,tharwa,tharwa,ACT,ACT,0
+2620-Top Naas,Top Naas,90,1,4,ACT,0.78,Delivery Area,-35.522639,149.08098,0,0,top naas,top naas,ACT,ACT,0
+2900-Greenway,Greenway,82,1,46,ACT,0.75,Delivery Area,-35.417991,149.069414,173,2063.51,greenway,greenway,ACT,ACT,2481.468645
+2900-Tuggeranong,Tuggeranong,79,0,76,ACT,0.83,Delivery Area,-35.415165,149.0658,3,2732.83,tuggeranong,tuggeranong,ACT,ACT,26.61885317
+2902-Kambah,Kambah,76,0,90,ACT,0.87,Delivery Area,-35.378876,149.045895,1082,2191.39,kambah,kambah,ACT,ACT,14601.91979
+2903-Erindale Centre,Erindale Centre,80,1,68,ACT,0.76,Delivery Area,-35.403016,149.097207,0,0,erindale centre,erindale centre,ACT,ACT,0
+2903-Oxley,Oxley,76,0,91,ACT,0.67,Delivery Area,-35.414349,149.079888,0,0,oxley,oxley,ACT,ACT,0
+2903-Wanniassa,Wanniassa,76,0,92,ACT,0.82,Delivery Area,-35.401661,149.099239,560,2220.96,wanniassa,wanniassa,ACT,ACT,7453.278887
+2904-Fadden,Fadden,67,0,129,ACT,0.91,Delivery Area,-35.400996,149.115023,276,2990.15,fadden,fadden,ACT,ACT,2726.953625
+2904-Gowrie,Gowrie,69,0,124,ACT,0.89,Delivery Area,-35.413419,149.108473,0,0,gowrie,gowrie,ACT,ACT,0
+2904-Macarthur,Macarthur,63,0,134,ACT,0.84,Delivery Area,-35.408559,149.131961,120,2869.42,macarthur,macarthur,ACT,ACT,1236.297847
+2904-Monash,Monash,81,1,56,ACT,0.84,Delivery Area,-35.416103,149.089758,395,2178.6,monash,monash,ACT,ACT,5359.262438
+2905-Bonython,Bonython,87,1,17,ACT,0.79,Delivery Area,-35.429018,149.081746,288,2195.02,bonython,bonython,ACT,ACT,3886.352563
+2905-Calwell,Calwell,69,0,125,ACT,0.71,Delivery Area,-35.43528,149.11229,436,2430.09,calwell,calwell,ACT,ACT,5300.109431
+2905-Chisholm,Chisholm,70,0,120,ACT,0.73,Delivery Area,-35.424193,149.122569,361,2241.08,chisholm,chisholm,ACT,ACT,4761.817067
+2905-Gilmore,Gilmore,89,1,8,ACT,0.89,Delivery Area,-35.416056,149.134017,192,2272.67,gilmore,gilmore,ACT,ACT,2496.256897
+2905-Isabella Plains,Isabella Plains,77,0,87,ACT,0.79,Delivery Area,-35.431945,149.092689,298,2086.48,isabella plains,isabella plains,ACT,ACT,4223.524703
+2905-Richardson,Richardson,77,0,88,ACT,0.76,Delivery Area,-35.427581,149.109787,191,2007.14,richardson,richardson,ACT,ACT,2806.810184
+2905-Theodore,Theodore,74,0,99,ACT,0.75,Delivery Area,-35.448697,149.124445,276,2336.53,theodore,theodore,ACT,ACT,3498.900367
+2906-Banks,Banks,79,0,77,ACT,0.74,Delivery Area,-35.522639,149.08098,351,2276.29,banks,banks,ACT,ACT,4557.739193
+2906-Conder,Conder,69,0,126,ACT,0.72,Delivery Area,-35.456295,149.094031,362,2393.04,conder,conder,ACT,ACT,4477.882633
+2906-Gordon,Gordon,67,0,130,ACT,0.77,Delivery Area,-35.450547,149.083449,0,0,gordon,gordon,ACT,ACT,0
+2911-Crace,Crace,82,1,47,ACT,0.79,Delivery Area,-35.218473,149.124813,380,2721.37,crace,crace,ACT,ACT,4125.922241
+2911-Mitchell,Mitchell,62,0,136,ACT,0.87,Delivery Area,-35.217487,149.141164,0,0,mitchell,mitchell,ACT,ACT,0
+2912-Gungahlin,Gungahlin,88,1,11,ACT,0.82,Delivery Area,-35.522639,149.08098,432,2281.27,gungahlin,gungahlin,ACT,ACT,5598.832117
+2913-Franklin,Franklin,79,0,78,ACT,0.75,Delivery Area,-35.201802,149.132349,486,2368.89,franklin,franklin,ACT,ACT,6072.056173
+2913-Ginninderra Village,Ginninderra Village,71,0,117,ACT,0.91,Delivery Area,-35.191111,149.084139,0,0,ginninderra village,ginninderra village,ACT,ACT,0
+2913-Ngunnawal,Ngunnawal,88,1,12,ACT,0.78,Delivery Area,-35.177716,149.106022,736,2109.83,ngunnawal,ngunnawal,ACT,ACT,10316.28443
+2913-Nicholls,Nicholls,81,1,57,ACT,0.78,Delivery Area,-35.190785,149.099951,579,2934.31,nicholls,nicholls,ACT,ACT,5838.401795
+2913-Palmerston,Palmerston,83,1,42,ACT,0.81,Delivery Area,-35.194578,149.114697,404,2241.69,palmerston,palmerston,ACT,ACT,5326.728284
+2914-Amaroo,Amaroo,74,0,100,ACT,0.79,Delivery Area,-35.170334,149.125877,435,2629.75,amaroo,amaroo,ACT,ACT,4891.953682
+2914-Bonner,Bonner,68,0,127,ACT,0.78,Delivery Area,-35.164311,149.13395,466,2541.11,bonner,bonner,ACT,ACT,5418.415445
+2914-Forde,Forde,72,0,111,ACT,0.83,Delivery Area,-35.164368,149.147539,371,3051.36,forde,forde,ACT,ACT,3596.502828
+2914-Harrison,Harrison,76,0,93,ACT,0.77,Delivery Area,-35.180788,149.144499,592,2515.06,harrison,harrison,ACT,ACT,6962.308929

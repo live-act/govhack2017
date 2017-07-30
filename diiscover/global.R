@@ -1,6 +1,6 @@
 library(dplyr)
 
-allzips <- read.csv(file.path(venv,"data/liveability_final.csv"))
+allzips <- read_csv(file.path(venv,"data/liveability_final.csv"))
 
 
 allzips$latitude <- jitter(allzips$latitude, amount = 0) 

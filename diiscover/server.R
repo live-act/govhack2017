@@ -106,7 +106,7 @@ function(input, output, session) {
       tags$strong(HTML(sprintf("%s, %s %s",
         select_postcode$suburb.x, select_postcode$state.x, select_postcode$postcode
       ))), tags$br(),
-      sprintf("Median household income: %s", dollar(select_postcode$income * 1000)), tags$br(),
+      sprintf("Median household income: %s", dollar(select_postcode$income * 52)), tags$br(),
       sprintf("Percent of adults with BA: %s%%", as.integer(select_postcode$school)), tags$br(),
       sprintf("Adult population: %s", select_postcode$adultpop)
     ))

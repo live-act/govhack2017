@@ -1,5 +1,4 @@
 library(leaflet)
-
 # Choices for drop-downs
 vars <- c(
   "ACT LPI" = "liveable_h",
